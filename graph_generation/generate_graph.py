@@ -4,20 +4,8 @@ from collections import defaultdict
 from termcolor import colored
 from time import time
 
-#runtime_start_ms = int(time()*1000)
-# working with the txt file
-# with open('test', 'r') as f:
-# Path: CPS-VVI-LOGS-DATA/All-new-logs/10.2.everything-logged-with-good
-# with open('/home/raihan/CPS-VVI-LOGS-DATA/All-new-logs/10.2.everything-logged-with-good/motivation-log-test', 'r') as f:
-## delivery-underflow
-#with open('/home/raihan/CPS-VVI-LOGS-DATA/All-new-logs/10.2.everything-logged-with-good/delivery-underflow/motivation-log-v2-delivery', 'r') as f: ##Storing 1 workpiece --Input: `hbw/ack`
-#with open('/home/raihan/CPS-VVI-LOGS-DATA/All-new-logs/10.2.everything-logged-with-good/delivery-underflow/motivation-log-v3', 'r') as f: ##Storing 9 workpiece
-# store-overflow
-#with open('/home/raihan/CPS-VVI-LOGS-DATA/All-new-logs/10.2.everything-logged-with-good/store-overflow/motivation-log-v2-store', 'r') as f: ##look at the folder, it has descriptive names
-#    input_str = f.read()
-
 ## delivery-underflow with readable function calls.
-with open('/home/raihan/CPS-VVI-LOGS-DATA/All-new-logs/10.2.everything-logged-with-good/delivery-underflow/delivery-underflow-1wp.md', 'r') as f: ##Storing 1 workpiece with much more refined function calls --Input: `hbw/ack`
+with open('../3-steps/step_3/output/updated_idf_updated_traces_0.0004', 'r') as f: ##Storing 1 workpiece with much more refined function calls --Input: `hbw/ack`
     input_str = f.read()
 
 

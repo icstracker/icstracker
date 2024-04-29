@@ -21,15 +21,6 @@ def find_caller(important_func_file, source_file):
         else:
             print(f"Total functions found: {found}")
 
-## Define file paths
-#important_func_file = "/home/raihan/CPS-VVI-LOGS-DATA/All-new-logs/10.4.Paper_Table_Format/Table 3/1.HBW_Retrieval/updated_idf_traces_0.005"
-#source_file = "/home/raihan/CPS-VVI-LOGS-DATA/All-new-logs/10.2.everything-logged-with-good/hbwall3"
-#
-## Call the function
-#find_caller(important_func_file, source_file)
-
-
-
 # Check if the correct number of arguments are provided
 if len(sys.argv) != 3:
     print("Usage: python script.py important_func_file_path source_file_path")
