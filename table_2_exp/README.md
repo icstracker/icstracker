@@ -1,6 +1,7 @@
 ![table-2-attack-senarios](../pics/table2.png)
 
 ## Attack Scenarios
+All the attack senarios of table 2 are explained below:
 
 #### Warehouse Storage Collision #1:
 In this scenario, an attacker modifies the High-Bay Warehouse (HBW) storage state, causing the gripper to store a workpiece in an already occupied slot. The fischertechnik testbed includes multiple controllers such as the HBW, Vacuum Gripper (VGR), and Sorting Line (SLD). This motivating example, detailed in section 3.1, involves the attacker tricking the system into believing that a specified location is empty when it is actually occupied. The HBW depends on the VGR to store and retrieve workpieces. As shown in Figure 2, the attack targets the HBW storage system, leading to an attempt to store a workpiece in an occupied slot. This vulnerability cannot be detected using program semantics, and we currently lack an effective tool to identify such attacks.
@@ -33,3 +34,6 @@ An attacker prematurely deactivated the intake pump of the raw water tank, leadi
 
 #### Reverse Flow:
 An attacker executed a malicious command that deactivated the check valve, which is designed to allow water flow in only one direction. This caused water to flow in reverse when air pressure changed due to the deactivation of a pump. This type of attack compromises the integrity of the system's flow control mechanisms. Such vulnerabilities cannot be detected using program semantics, which do not encompass the dynamic and physical state changes induced by malicious commands. There is no effective tool available to identify these types of attacks.
+
+
+In all these scenarios, the attacks exploit specific vulnerabilities to alter the normal operation of control systems. The complexity and specificity of these exploits make them undetectable using program semantics, and the lack of effective tools to identify these attacks underscores the need for advanced security measures and monitoring systems.
