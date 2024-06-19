@@ -8,7 +8,7 @@
 ## python3 find_remove_patterns.py ../Data/hbw-Retrievals/ -f ../Data/vgr-traces/vgrall3.txt -o
 
 
-# The original size of ALL retrieval process-S1: print total lines in all the retrievals present inside the "/home/raihan/Graphs-all/Graphs/backwardTracking/combinedGraph/longestCommonSubsequence/Data/hbw-Retrievals"
+# The original size of ALL retrieval process-S1: print total lines in all the retrievals present inside the "./Data/hbw-Retrievals"
 directory=$1
 # Check if the directory argument was provided
 if [ -z "$directory" ]; then
@@ -48,7 +48,7 @@ find "$directory" -type f -exec sh -c '
 echo ""
 
 echo "STEP 3:"
-# S3 minus high-frequent patterns = S4: This is present inside /home/raihan/Graphs-all/Graphs/backwardTracking/combinedGraph/longestCommonSubsequence/step3/updated_idf_traces
+# S3 minus high-frequent patterns = S4: This is present inside ./step3/updated_idf_traces
 echo "S3 minus high-frequent patterns = S4:"
 directory="./step3/step3-updated_idf_traces"
 find "$directory" -type f -exec sh -c '
