@@ -2,7 +2,7 @@
 
 ## Attack Scenarios
 
-1. Warehouse Storage Collision #1:
+#### Warehouse Storage Collision #1:
 In this scenario, an attacker modifies the High-Bay Warehouse (HBW) storage state, causing the gripper to store a workpiece in an already occupied slot. The fischertechnik testbed includes multiple controllers such as the HBW, Vacuum Gripper (VGR), and Sorting Line (SLD). This motivating example, detailed in section 3.1, involves the attacker tricking the system into believing that a specified location is empty when it is actually occupied. The HBW depends on the VGR to store and retrieve workpieces. As shown in Figure 2, the attack targets the HBW storage system, leading to an attempt to store a workpiece in an occupied slot. This vulnerability cannot be detected using program semantics, and we currently lack an effective tool to identify such attacks.
 
 2. Warehouse Retrieval Underflow:
