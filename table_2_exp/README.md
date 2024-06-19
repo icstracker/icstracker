@@ -1,4 +1,4 @@
-![table-2-attack-senarios](pics/table2.png)
+![table-2-attack-senarios](../pics/table2.png)
 
 ## Attack Scenarios
 
