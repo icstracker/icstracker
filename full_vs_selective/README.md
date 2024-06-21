@@ -1,4 +1,4 @@
-![case_study full vs selective](case_study.png)
+![case_study full vs selective](full_vs_selective.png)
 
 The above figure illustrates the process of reducing noise in function traces through selective instrumentation. The process involves three main steps to identify and isolate specific functional sequences (SFSes) that correspond to particular physical operations. Here is a detailed description of the full vs selective instrumentation:
 
