@@ -19,7 +19,7 @@
   </tr>
 </table>
 
-
+</br></br>
 ![table-2-attack-senarios](../pics/table2.png)
 
 ## Attack Scenarios
