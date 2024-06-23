@@ -2,9 +2,9 @@
 <table>
   <tr>
     <td>
-        <strong>Missing text and references in the Rebuttal due to truncation:</strong>
+        <strong>Due to truncation, 57 words (one sentence and references) are missing from our Rebuttal: </strong>
         </br>
-        [Additionally, our goal is not to eliminate all false positives but to reduce them to the] extent that provenance graphs are small enough for humans to comprehend.
+        [<strong>Static Analysis Precision(ReviewerA) ... </strong>Additionally, our goal is not to eliminate all false positives but to reduce them to the] extent that provenance graphs are small enough for humans to comprehend.
         </br>
         [I] Darvas et al. "PLC program translation for verification purposes."
         </br>
@@ -18,8 +18,8 @@
     </td>
   </tr>
 </table>
-
 </br></br>
+
 ![table-2-attack-senarios](../pics/table2.png)
 
 ## Attack Scenarios
