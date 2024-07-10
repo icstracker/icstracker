@@ -1,25 +1,3 @@
-
-<table>
-  <tr>
-    <td>
-        <strong>Due to truncation, 57 words (one sentence and references) are missing from our Rebuttal: </strong>
-        </br>
-        [<strong>Static Analysis Precision(ReviewerA) ... </strong>Additionally, our goal is not to eliminate all false positives but to reduce them to the] extent that provenance graphs are small enough for humans to comprehend.
-        </br>
-        [I] Darvas et al. "PLC program translation for verification purposes."
-        </br>
-        [II] Adepu et al. “Control behavior integrity for distributed cyber-physical systems.”
-        </br>
-        [III] “Granger causality”, https://en.wikipedia.org/wiki/Granger_causality.
-        </br>
-        [IV] “Logix 5000 Controllers Tasks, Programs, and Routines”, https://literature.rockwellautomation.com/idc/groups/literature/documents/pm/1756-pm005_-en-p.pdf
-        </br>
-        [V] Liu et al. “Towards a Timely Causality Analysis for Enterprise Security”, NDSS’18
-    </td>
-  </tr>
-</table>
-</br></br>
-
 ![table-2-attack-senarios](../pics/table2.png)
 
 ## Attack Scenarios
