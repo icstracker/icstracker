@@ -50,7 +50,7 @@ echo ""
 echo "STEP 3:"
 # S3 minus high-frequent patterns = S4: This is present inside ./step3/updated_idf_traces
 echo "S3 minus high-frequent patterns = S4:"
-directory="./step3/step3-updated_idf_traces"
+directory="./step_3/step3-updated_idf_traces"
 find "$directory" -type f -exec sh -c '
     echo -n "{}: "
     wc -l "{}" | cut -d " " -f 1
